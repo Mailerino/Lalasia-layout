@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 5vw;
-    height: 10vh;
+    height: 80px;
     background-color: var(--color-white);
     border-bottom: 2px solid var(--color-underline);
     position: fixed;
@@ -33,7 +33,6 @@
     margin-left: 3vw;
     padding: 5px 10px;
     list-style-type: none;
-    transition: var(--animation);
 }
 .header-nav-item > a {
     font-family: var(--font-family-eudoxus-m);
@@ -42,11 +41,9 @@
     color: var(--color-text);
     transition: var(--animation);
 }
-.header-nav-item:hover,
-.header-nav-item:focus-visible {
+.header-nav-item > a:hover,
+.header-nav-item > a:focus-visible {
     color: var(--color-main);
-    background-color: var(--color-main);
-    border-radius: 40%;
 }
 
 .header-buttons {
@@ -68,4 +65,10 @@
 .header-button:focus-visible {
     background-color: var(--color-main);
     border-radius: 50%;
+}
+
+@media (max-width:767px){
+    .header {
+        height: 60px;
+    }
 }
