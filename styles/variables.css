@@ -2,27 +2,18 @@
     --color-white: #FFFFFF;
     --color-black: #000000;
     
-    --color-red: #FF0000;
-    
-    --color-gray-dark: #373d48;
-    --color-gray-medium: #5C5C5C;
-    --color-gray-medium-light: #8B8B8B;
-    --color-gray-light: #BFBFBF;
+    --color-main: #518581;
+    --color-secondary: #FFB23F;
+    --color-text: #151411;
+    --color-paragraph: #AFADB5;
+    --color-placeholder: #F9F9F9;
+    --color-line: #F3F3F3;
 
-    --color-blue-dark: #212834;
-    --color-purple-62: #372B43;
+    --color-brown: #AD7E5C;
 
-    --font-family-montserrat-b: Montserrat-700, sans-serif;
-
-    --font-family-roboto-b: Roboto-700, sans-serif;
-    --font-family-roboto-m: Roboto-500, sans-serif;
-
-    --font-family-notosans-b: NotoSans-700, sans-serif;
-    --font-family-notosans-m: NotoSans-500, sans-serif;
-    --font-family-notosans-r: NotoSans-400, sans-serif;
-
-    --font-family-avenir-b: Avenir-800, sans-serif;
-    --font-family-avenir-m: Avenir-500, sans-serif;
+    --font-family-eudoxus-b: Eudoxus-B, sans-serif;
+    --font-family-eudoxus-m: Eudoxus-M, sans-serif;
+    --font-family-eudoxus-r: Eudoxus-R, sans-serif;
 
     --animation-speed: .3s;
     --animation-func: ease;
