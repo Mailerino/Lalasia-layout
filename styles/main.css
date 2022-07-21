@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding-top: 100px;
+}
+.main-info {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-info-header {
+    text-align: center;
+    border: 1px solid black;
+    /* max-width: 38vw; */
+}
+.main-info-text {
+    border: 1px solid black;
+    width: 95%;
+    text-align: center;
+}
+.main-search {
+    border: 1px solid black;
+}
+.main-search {
+    width: 40vw;
+}
