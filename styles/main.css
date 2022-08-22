@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    padding-top: 100px;
+    padding: 100px 10vw 0 10vw;
 }
 .main-info {
     border: 1px solid black;
@@ -12,20 +12,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5vh 10vw 0 10vw;
 }
 .main-info-header {
     text-align: center;
     border: 1px solid black;
     /* max-width: 38vw; */
+    margin-block: 0;
 }
 .main-info-text {
     border: 1px solid black;
     width: 95%;
     text-align: center;
+    margin-block: 0;
 }
 .main-search {
     border: 1px solid black;
 }
 .main-search {
     width: 40vw;
+}
+
+@media (max-width:767px){
+    .main-info-header {
+        font-size: 44px;
+    }
 }
